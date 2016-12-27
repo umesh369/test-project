@@ -1,0 +1,418 @@
+@font-face {
+  font-family: 'ProximaNova-Semibold';
+  src: url('../fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),  
+       url('../fonts/ProximaNova-Semibold.otf')  format('opentype'),
+       url('../fonts/ProximaNova-Semibold.woff') format('woff'), 
+       url('../fonts/ProximaNova-Semibold.ttf')  format('truetype'), 
+       url('../fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),  
+       url('../fonts/ProximaNova-Regular.otf')  format('opentype'),
+       url('../fonts/ProximaNova-Regular.woff') format('woff'), 
+       url('../fonts/ProximaNova-Regular.ttf')  format('truetype'), 
+       url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WebRupee_V2_0';
+  src: url('../fonts/WebRupee_V2_0.eot');
+  src: url('../fonts/WebRupee_V2_0.eot') format('embedded-opentype'),
+       url('../fonts/WebRupee_V2_0.woff2') format('woff2'),
+       url('../fonts/WebRupee_V2_0.woff') format('woff'),
+       url('../fonts/WebRupee_V2_0.ttf') format('truetype'),
+       url('../fonts/WebRupee_V2_0.svg#WebRupee_V2_0') format('svg');
+}
+.rupee{
+  font-family: 'WebRupee_V2_0';
+  letter-spacing: -2px;
+}
+.rupees{
+  font-family: 'WebRupee_V2_0';
+  letter-spacing: -3px;
+}
+body {
+  font-family: 'ProximaNova-Regular';
+  font-size: 20px;
+  color: #fff;
+  background: url(../images/bg.jpg) repeat;
+}
+div, form{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+img, input, textarea, button {
+  border: none;
+  outline: none;
+}
+#main {
+  width: 100%;
+  float: left;
+}
+.wrapper{
+  width: 1100px;
+  margin: 0 auto;
+  padding: 30px 0 0;
+  display: block;
+  clear: both;
+}
+.top{
+  background: #000;
+  width: 100%;
+  float: left;
+  padding: 25px 0;
+}
+.head {
+  width: 1100px;
+  margin: 0 auto;
+}
+.logo {
+  width: 213px;
+  float: left;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+.banner {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.banner .bannerImg{
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.bannerForm{
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  left: 0;
+  text-align: center;
+}
+.bannerForm form{
+  width: 290px;
+  float: right;
+  background: #000;
+  padding: 20px 25px;
+  text-align: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: 1px solid #868686;
+  opacity: 0;
+}
+.bannerForm form strong{
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #969696;
+  display: inline-block;
+}
+.bannerForm form input{
+  margin: 30px 0 0;
+  display: block;
+  border-bottom: 1px solid #bfbfbf;
+  background: #000;
+  color: #b2b2b2;
+  width: 100%;
+  font-size: 15px;
+  border-radius: 0;
+}
+.bannerForm form button{
+  width: 186px;
+  height: 37px;
+  background: url(../images/submit-btn.png) left top no-repeat;
+  display: inline-block;
+  cursor: pointer;
+  margin: 30px 0 0;
+}
+.bannerForm form p{
+  font-size: 12px;
+  font-style: italic;
+}
+.bannerForm form p a{
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #404040;
+}
+.ipadBanner{
+  display: none;
+}
+.content{
+  width: 100%;
+  float: left;
+  padding: 0 0 50px;
+  text-align: center;
+}
+.left, .left-Rgt{
+  width: 50%;
+  float: left;
+  padding: 82px 0 0;
+  text-align: left;
+}
+.right, .right-Lft{
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+.right-Lft{
+  text-align: left;
+}
+.left-Rgt{
+  padding: 65px 0 0;
+}
+.wrapper p{
+  padding: 30px 0 0;
+  text-align: justify;
+}
+.wrapper p a{
+  color: #cad14d;
+  text-decoration: none;
+}
+.imgDiv{
+  text-align: center;
+  padding: 0 0 50px;
+  display: block;
+  width: 100%;
+  float: left;
+}
+.visa{
+  width: 100%;
+  background: #1a1a1a;
+  padding: 25px 0 20px;
+  text-align: center;
+  float: left;
+}
+.visa img{
+  margin: 0 22px;
+}
+.footer{
+  width: 100%;
+  float: left;
+  background: #000000;
+  padding: 15px 0;
+}
+.footDiv{
+  width: 1100px;
+  margin: 0 auto;
+  display: block;
+}
+.footDiv p{
+  float: left;
+  color: #999999;
+  font-size: 12px;
+  line-height: 25px;
+}
+.footDiv ul{
+  float: right;
+  list-style: none;
+}
+.footDiv ul li{
+  float: left;
+  padding: 0 0 0 20px;
+}
+.footDiv ul li img{
+  float: left;
+}
+.mobBanner{
+  display: none;
+}
+.mobPart{
+  display: none;
+}
+.cashDiv{
+  padding: 10px 0 0;
+}
+.center{
+  text-align: center;
+}
+.tournament{
+  padding: 75px 0 0;
+}
+.starDiv{
+  padding: 0;
+}
+.formDiv{
+  width: 1100px;
+  text-align: center;
+  display: inline-block;
+}
+.loginDiv, .loginMob{
+  float: right;
+  line-height: 37px;
+  padding: 13px 0 0;
+}
+.loginDiv label{
+  font-size: 15px;
+  color: #fff;
+  float: left;
+}
+.loginDiv input{
+  border-bottom: 1px solid #bfbfbf;
+  background: transparent;
+  color: #b2b2b2;
+  width: 160px;
+  font-size: 15px;
+  margin: 10px 10px 0 5px;
+  float: left;
+  border-radius: 0;
+}
+.loginDiv button{
+  width: 127px;
+  height: 36px;
+  background: url(../images/login-btn.png) left top no-repeat;
+  cursor: pointer;
+  position: relative;
+  float: left;
+  margin: 0 10px 0 0;
+}
+.loginDiv .forgPass{
+  font-style: italic;
+  color: #dddddd;
+  cursor: pointer;
+}
+.loginMob a{
+  float: right;
+  cursor: pointer;
+}
+.loginMob{
+display: none;
+}
+.popUp{
+  display: none;
+  width: 380px;
+  background: #000;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: 1px solid #868686;
+  z-index: 99999999;
+}
+.simplePopupClose {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 8040;
+  background: url(../images/pop-close.png) left top no-repeat;
+}
+.simplePopupBackground {
+  display: none;
+  background: #000;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.popUp h2{
+  font-family: 'ProximaNova-Semibold';
+  font-size: 18px;
+  color: #cad14d;
+  text-transform: uppercase;
+  clear: left;
+  display: inline-block;
+  border-bottom: 1px solid #4c4f1d;
+}
+.popUp h3{
+  font-family: 'ProximaNova-Semibold';
+  font-size: 18px;
+  color: #fff;
+  padding: 15px 0;
+}
+.popUp p{
+  font-size: 16px;
+  padding: 0 15px;
+}
+.popUp input{
+  width: 70%;
+  display: inline-block;
+  text-align: center;
+  border-bottom: 1px solid #bfbfbf;
+  color: #a3a3a3;
+  font-size: 16px;
+  background: #000;
+  margin: 30px 0 0;
+  border-radius: 0;
+}
+.popUp p.note{
+   font-size: 13px;
+   width: 200px;
+   display: inline-block;
+   padding: 0 0 30px;
+}
+.popUp p.note span, .popUp p.help a{
+  color: #cad14d;
+  text-decoration: none;
+}
+.popUp p.help{
+  font-size: 13px;
+  display: inline-block;
+  color: #cad14d;
+}
+.sendEmail{
+  width: 157px;
+  height: 36px;
+  background: url(../images/send-btn.png) left top no-repeat;
+  cursor: pointer;
+  display: inline-block;
+  margin: 30px 0;
+}
+.loginBtn{
+  width: 156px;
+  height: 37px;
+  background: url(../images/login-now.png) left top no-repeat;
+  cursor: pointer;
+  display: inline-block;
+  margin: 30px 0 0;
+}
+.log-forgPass{
+  clear: both;
+  display: block;
+  text-decoration: underline;
+  padding: 15px 0 20px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+.popTxt{
+  padding: 0 20px;
+}
+.popUp img{
+  width: 100%;
+  margin: 20px 0 0;
+}
+.mandatory{
+  display: block;
+  clear: both;
+  font-size: 13px;
+  padding: 8px 0 0;
+}
